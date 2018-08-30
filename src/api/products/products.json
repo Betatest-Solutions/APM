@@ -1,0 +1,32 @@
+[
+  {
+    "productId": 1,
+    "productName": "Embroided Lehnga",
+    "productCode": "GDN-0011",
+    "releaseDate": "March 19, 2016",
+    "description": "Embroided Lehnga",
+    "price": 19.95,
+    "starRating": 3.2,
+    "imageUrl": "https://beautyhealthtips.in/wp-content/uploads/2016/07/Short-jacket-pattern-blouse-for-lehenga.jpg"
+  },
+  {
+    "productId": 2,
+    "productName": "Flared Lehenga",
+    "productCode": "GDN-0023",
+    "releaseDate": "March 18, 2016",
+    "description": "Buy this beautiful white flared Lehnga from Rampyari Cotoure",
+    "price": 32.99,
+    "starRating": 4.2,
+    "imageUrl": "https://qph.fs.quoracdn.net/main-qimg-549ce510883c19ca58f1f5c1531efa34"
+  },
+  {
+    "productId": 5,
+    "productName": "Mermaid Lehnga",
+    "productCode": "TBX-0048",
+    "releaseDate": "May 21, 2016",
+    "description": "Buy this beautiful Green Mermaid Lehnga from Rampyari Cotoure",
+    "price": 8.9,
+    "starRating": 4.8,
+    "imageUrl": "https://i.pinimg.com/236x/32/49/1e/32491e1dc481dba6a2205526b82ff961--lehenga-choli-online-lengha-choli.jpg"
+  }
+]
