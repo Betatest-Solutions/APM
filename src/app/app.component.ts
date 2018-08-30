@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
         <!--<img src="https://cdn.dribbble.com/users/707654/screenshots/2448417/swoosh.gif"/>-->
       <div class="navbar-header">
         <a class='navbar-brand'>
-          <img src="https://seeklogo.com/images/N/nike-logo-97641CDCFC-seeklogo.com.png" alt="Logo" style="width:100px;">
+          <img src="https://seeklogo.com/images/N/nike-logo-97641CDCFC-seeklogo.com.png" alt="Logo" style="width:80px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
