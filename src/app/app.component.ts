@@ -14,12 +14,28 @@ import { Component } from '@angular/core';
         </button>
       </div>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class='nav navbar-nav navbar-right'>
+        <form class="navbar-form w-100 justify-content-center" role="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <span class="input-group-btn"><button type="submit" class="btn btn-default">Search</button></span>
+          </div>
+        </form>
+        <ul class='nav navbar-nav ml-auto w-100 justify-content-end'>
           <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/welcome']">Home</a></li>
           <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/products']">Product List</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
               More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              More 2
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenu">
               <a class="dropdown-item" href="#">Link 1</a>
