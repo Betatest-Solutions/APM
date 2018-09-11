@@ -23,4 +23,8 @@
   .navbar-fixed-top {
     min-height: 80px;
   }
+  .bg-company-dark {
+    /*background-color: #343a40;*/
+    background-color: #343a40;
+  }
 }

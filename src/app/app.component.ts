@@ -2,54 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'pm-root',
-  template: `
-    <nav class='navbar navbar-expand-sm bg-dark navbar-dark'>
-        <!--<img src="https://cdn.dribbble.com/users/707654/screenshots/2448417/swoosh.gif"/>-->
-      <div class="navbar-header">
-        <a class='navbar-brand'>
-          <img src="https://seeklogo.com/images/N/nike-logo-97641CDCFC-seeklogo.com.png" alt="Logo" style="width:80px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <form class="navbar-form w-100 justify-content-center" role="search">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search">
-            <span class="input-group-btn"><button type="submit" class="btn btn-default">Search</button></span>
-          </div>
-        </form>
-        <ul class='nav navbar-nav ml-auto w-100 justify-content-end'>
-          <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/welcome']">Home</a></li>
-          <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/products']">Product List</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              More
-            </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-              <a class="dropdown-item" href="#">Link 1</a>
-              <a class="dropdown-item" href="#">Link 2</a>
-              <a class="dropdown-item" href="#">Link 3</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              More 2
-            </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-              <a class="dropdown-item" href="#">Link 1</a>
-              <a class="dropdown-item" href="#">Link 2</a>
-              <a class="dropdown-item" href="#">Link 3</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class='container'>
-      <router-outlet></router-outlet>
-    </div>
-    `,
+  templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {

@@ -1,0 +1,89 @@
+.img-fluid {
+  /*width: 2000px;*/
+  width:100%;
+  /*padding-top: 20px;*/
+  padding-bottom: 20px;
+  /*height: 100vh;*/
+  height: 50vh;
+}
+
+div .a{
+  text-align-last: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+div .g1{
+  display:inline-block;
+  vertical-align:top;
+  font-weight:bold;
+}
+
+div .g1\.1{
+  display:inline-block;
+  vertical-align:bottom;
+  margin-top:5px;
+}
+
+div .g2{
+  /*display:inline;*/
+  vertical-align:top;
+}
+
+div .g2\.2{
+  display:inline-block;
+  vertical-align:bottom;
+  font-weight:bold;
+}
+
+div .g3{
+  /*display:inline;*/
+  vertical-align:top;
+}
+
+div .g3\.3{
+  display:inline-block;
+  vertical-align:bottom;
+  font-weight:bold;
+}
+
+div .g4{
+  /*display:inline;*/
+  vertical-align:top;
+}
+
+div .g4\.4{
+  display:inline-block;
+  vertical-align:bottom;
+  font-weight:bold;
+}
+
+div .g5{
+  /*display:inline;*/
+  vertical-align:top;
+}
+
+div .g5\.5{
+  display:inline-block;
+  vertical-align:bottom;
+  font-weight:bold;
+}
+
+div .g6{
+  /*display:inline;*/
+  vertical-align:top;
+}
+
+div .g6\.6{
+  display:inline-block;
+  vertical-align:bottom;
+  font-weight:bold;
+}
+
+.loc1{
+  text-align-last: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
