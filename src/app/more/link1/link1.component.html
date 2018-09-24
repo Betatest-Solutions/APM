@@ -1,0 +1,34 @@
+<div class="container-fluid">
+  <div class="row l1">
+
+  </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6 col-xs-12">
+        <table class="table table-striped table-bordered table-responsive-mat" cellspacing="0" width="100%">
+          <caption>List of users</caption>
+          <thead>
+          <tr>
+            <th (click)="sortBy('name')">Name<mat-icon>arrow_drop_down</mat-icon></th>
+            <th (click)="sortBy('email')">Email<mat-icon>arrow_drop_down</mat-icon></th>
+            <th (click)="sortBy('phone')">Contact<mat-icon>arrow_drop_down</mat-icon></th>
+            <th>Message</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let item of this.info">
+            <td>{{item.name}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.phone}}</td>
+            <td>{{item.message}}</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+</div>

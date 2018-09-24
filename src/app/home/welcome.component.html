@@ -8,10 +8,44 @@
     </p>
   </div>
 </div>
-<div class="container">
-  <div class="row">
-<div class="text-center"><p>Content Form</p></div>
-    </div>
-      </div>
+<div class = "container">
+
+<div class="col-sm-6 col-xs-12">
+  <div>
+    <br>
+    <mat-card>
+      <section class="mat-typography">
+        <h3>Content form</h3>
+      </section>
+      <mat-divider [inset]="true"></mat-divider>
+      <br>
+  <form [formGroup]="createForm" class="create-form">
+    <mat-form-field class="field-full-width" floatLabel="never">
+      <input matInput placeholder="First Name" formControlName="name" #name>
+      </mat-form-field>
+    <br>
+    <mat-form-field class="field-full-width" floatLabel="never">
+      <br>
+      <input matInput placeholder="Enter Email" formControlName="email" #email>
+      </mat-form-field>
+    <br>
+    <mat-form-field class="field-full-width" floatLabel="never">
+      <mat-label>Enter Contact</mat-label>
+      <br>
+      <input matInput placeholder="Enter Contact" formControlName="phone" #phone>
+      </mat-form-field>
+    <br>
+        <mat-form-field class="field-full-width" floatLabel="never">
+      <br>
+      <input matInput placeholder="Type message" formControlName="message" #message>
+    </mat-form-field>
+    <br><br>
+    <button type="submit" (click)="addInfo(name.value, email.value, phone.value, message.value)"
+            [disabled]="createForm.pristine || createForm.invalid" mat-raised-button color="primary">Submit</button>
+  </form>
+    </mat-card>
+  </div>
+</div>
+</div>
 
 

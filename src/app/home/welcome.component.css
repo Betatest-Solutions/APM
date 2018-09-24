@@ -4,4 +4,13 @@ div .text-center{
   font-size: 50px;
   width: 100%;
 }
+.create-form {
+  min-width: 150px;
+  width: 100%;
+}
+
+.field-full-width {
+  width: 100%;
+}
+
 
