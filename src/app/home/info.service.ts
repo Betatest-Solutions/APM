@@ -6,7 +6,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class InfoService {
 
-  uri = 'http://localhost:4000';
+  // uri = 'http://54.226.207.32:4000';
+  // uri = 'http://localhost:4000';
+  //when pushing to github uncomment this
+  uri = 'http://54.197.12.23:3000';
 
   constructor(private http: HttpClient) { }
 
